@@ -23,7 +23,7 @@ sy match ft '?[^()\[\]{}#,;]*'
 sy match ph '"[^()\[\]{}#,;]*'
 sy match char '`.'
 sy region str start="'" end="'"
-sy region bCom start="^#" end="\n\s*\n"
+sy region bCom start="^\s*#" end="\n\s*\n"
 sy region nCom start="%" end=";"
 sy match num '-\=\d\+'
 sy match real '-\=\d\+\([eE][+-]\=\d\+\)\='
