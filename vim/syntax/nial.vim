@@ -2,12 +2,11 @@
 " vim nial highlighter
 " written by Garklein <garklein97@gmail.com>
 " made with BNF from the language definition
-" real matching is messy, but I don't know how to do it any better
 " only common infix functions are highlighted (ops group)
 " and aliases such as `gets` and `add` aren't supported
-" N.B. some symbols, such as ~, work as valid identifiers in Q'Nial
+" some symbols, such as ~, work as valid identifiers in Q'Nial
 " however, they aren't in the grammar, and thus aren't highlighted
-" if you want that highlighting, or aliases, modify the file  : )
+" if you want that, or aliases, highlighted, modify the file  : )
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 if exists("b:current_syntax")|fini|en|sy case ignore
 
