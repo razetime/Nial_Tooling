@@ -11,7 +11,7 @@
 if exists("b:current_syntax")|fini|en|sy case ignore
 
 sy keyword const true false pi null
-sy keyword kws is gets op tr if then elseif else endif case from endcase begin end for with endfor while do endwhile repeat until endrepeat
+sy keyword kws is gets op operation tr transformer if then elseif else endif case from endcase begin end for with endfor while do endwhile repeat until endrepeat
 sy match kws ':'|sy match kws ':='|sy match kws ';'
 sy match ops '+'|sy match ops '-'|sy match ops '*'|sy match ops '/'
 sy match ops '='|sy match ops '\~='|sy match ops '<'|sy match ops '>'|sy match ops '>='|sy match ops '<='
